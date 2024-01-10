@@ -1,0 +1,72 @@
+.BrowseArea{
+    display: flex;
+    .LeftBrowseArea{
+        height: 100vh;
+        min-width: 40%;
+        background-color: rgb(56, 74, 235);
+        .BrowseImg{
+            margin-top: 150px;
+            margin-left: 300px;
+            position: absolute;
+            img{
+              max-width: 86.5%;
+                
+            }
+        }
+    }
+    .RightBrowseArea{
+        height: 100vh;
+      min-width: 60%;
+        background-color: rgb(241, 246, 247);
+    }
+    .BrowseText{
+        max-width: 600px;
+        margin-top: 200px;
+        margin-left: 200px;
+        h5{
+            font-size: 30px;
+            color: rgb(85, 85, 85);
+        }
+        h1{
+           font-size: 45px; 
+        }
+        p{
+            font-size: 20px;
+            color: rgb(85, 85, 85);
+        }
+    }
+    .BrowseBtn{
+        width: 180px;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid rgb(56, 74, 235) ;
+        color: white;
+        font-size: 16px;
+        background-color: rgb(56, 74, 235);
+       
+        &:hover{
+            background-color: azure;
+            color: black;
+            transition: 0.5s;
+        }
+    }
+}
+@media only screen  and (max-width: 1200px) {
+    .BrowseArea{
+        display: flex;
+    .LeftBrowseArea{
+        height: 100vh;
+        min-width: 40%;
+        background-color: rgb(56, 74, 235);
+        .BrowseImg{
+            margin-top: 150px;
+            margin-left: 100px;
+            position: absolute;
+            img{
+              max-width: 86.5%;
+                
+            }
+        }
+    }
+}
+}

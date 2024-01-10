@@ -1,0 +1,66 @@
+#Latest {
+   min-width: 75%;
+    margin: auto;
+
+    .LatestText {
+        max-width: 250px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid blue;
+
+        p {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 46px;
+        }
+
+    }
+
+    .LatestArea {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+flex-wrap: wrap;
+
+
+        .LatestBoxArea {
+            .LatestBox {
+                p {
+                    font-size: 15px;
+                  color:   rgb(119, 119, 119);
+                }
+
+                h6 {
+                    font-size: 20px;
+                }
+
+                .Comment {
+                    display: flex;
+
+                    gap: 30px;
+
+
+
+                    .ByCom {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    &:hover{
+                        color: purple;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+
+}
